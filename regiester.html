@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WE School - Register</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #000000, #0a0f1a);
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+    }
+    .header h2 {
+      font-weight: bold;
+    }
+    .header a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+    .header a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      width: 320px;
+      background-color: black;
+      margin: 120px auto;
+      padding: 30px;
+      border-radius: 8px;
+    }
+    h3 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin: 6px 0 15px 0;
+      border: none;
+      border-radius: 4px;
+    }
+    label {
+      font-size: 14px;
+    }
+    .checkbox {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+    button {
+      width: 100%;
+      background-color: blue;
+      border: none;
+      color: white;
+      padding: 8px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: blue;
+    }
+    p {
+      text-align: center;
+      font-size: 14px;
+    }
+    footer {
+      text-align: center;
+      color: gray;
+      font-size: 12px;
+      margin-bottom: 20px;
+      margin-right: 95%;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h2>WE School</h2>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="log in.html">Login</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h3>Register</h3>
+    <form>
+      <label>Username</label>
+      <input type="text" placeholder="username">
+      <label>Email</label>
+      <input type="email" placeholder="email@example.com">
+      <label>Password</label>
+      <input type="password" placeholder="password">
+      <label>Confirm Password</label>
+      <input type="password" placeholder="confirm password">
+      
+        <input id="check" type="checkbox"> 
+        <br>
+        <label for="check">I agree to the terms</label>
+      
+      <button type="submit">Create Account</button>
+    </form>
+    <p>Already a member? <a href="log in.html" style="color:blue;">Log in</a></p>
+    </div>
+    <footer>we school</footer>
+
+</body>
+</html>

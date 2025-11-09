@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WE School - Blog</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color:black;
+            color:white;
+            font-family: Arial;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .header{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:20px 70px;
+        }
+
+        .header h2{
+            margin:0;
+        }
+
+        .header a{
+            color:white;
+            text-decoration:none;
+            margin-left:25px;
+        }
+
+        .header a:hover{
+            text-decoration:underline;
+        }
+
+        .blog-title{
+            color:blue;
+            font-size:22px;
+            margin-left:70px;
+            margin-top:10px;
+        }
+
+        .cards{
+            display:flex;
+            justify-content:center;
+            gap:30px;
+            margin-top:30px;
+            flex-wrap:wrap;
+            flex-grow: 1;
+        }
+
+        .card{
+            background-color:black;
+            width:300px;
+            border-radius:10px;
+            padding:15px;
+            height: 52%;
+            
+        }
+
+        .card img{
+            width:100%;
+            border-radius:5px;
+            height:180px;
+            object-fit:cover;
+        }
+
+        .card h4{
+            margin-top:10px;
+            color:white;
+        }
+
+        .card p{
+            color:rgb(202, 198, 198);
+            font-size:15px;
+            margin: 5px 0;
+        }
+
+        .card button{
+            background:none;
+            border:1px solid blue;
+            color:blue;
+            padding:6px 12px;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        .card button:hover{
+            background-color:blue;
+            color:white;
+        }
+
+        .footer{
+            font-size:13px;
+            color:whitesmoke;
+            margin-top: auto;
+            margin-left:70px;
+            margin-bottom:20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h2>WE School</h2>
+        <div class="links">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="booking.html">Booking</a>
+            <a href="log in.html">Log in</a>
+        </div>
+    </div>
+
+    <div class="blog-title">Blog</div>
+
+    <div class="cards">
+        <div class="card">
+            <img src="c:\Users\DELL\Desktop\front end\images.jpg" alt="">
+            <h4>Understanding CSS Grid</h4>
+            <p>Grid lets you design responsive layouts with rows and columns...</p>
+            <button>Read More</button>
+        </div>
+        <div class="card">
+            <img src="c:\Users\DELL\Desktop\front end\photo-1517694712202-14dd9538aa97.jpg" alt="">
+            <h4>Flexbox in Practice</h4>
+            <p>Flexbox simplifies alignment and distribution of space...</p>
+            <button>Read More</button>
+        </div>
+        <div class="card">
+            <img src="c:\Users\DELL\Desktop\front end\photo-1522202176988-66273c2fd55f.jpg" alt="">
+            <h4>Responsive Patterns</h4>
+            <p>Mobile-first, breakpoints, and best practices for responsive UI.....</p>
+            <button>Read More</button>
+        </div>
+    </div>
+
+    <div class="footer"> WE School</div>
+
+</body>
+</html>
+
+

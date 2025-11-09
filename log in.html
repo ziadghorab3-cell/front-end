@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WE School - Log in</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, black, black);
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+    }
+    .header h2 {
+      font-weight: bold;
+    }
+    .header a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+    .header a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      width: 320px;
+      background-color: black;
+      margin: 120px auto;
+      padding: 30px;
+      border-radius: 8px;
+    }
+    h3 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin: 6px 0 15px 0;
+      border: none;
+      border-radius: 4px;
+    }
+    button {
+      width: 100%;
+      background-color: blue;
+      border: none;
+      color: white;
+      padding: 8px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: blue;
+    }
+    p {
+      text-align: center;
+      font-size: 14px;
+    }
+    footer {
+      text-align: center;
+      color: gray;
+      font-size: 12px;
+      margin-bottom: 20px;
+      margin-right: 95%;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h2>WE School</h2>
+    <div>
+      <a href="#">Home</a>
+      <a href="regiester.html">Regiester</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h3>Login</h3>
+    <form>
+      <label>Username</label>
+      <input type="text" placeholder="username">
+      <label>Password</label>
+      <input type="password" placeholder="password">
+      <button type="submit">Log in</button>
+    </form>
+    <p>Dont have an account? <a href="regiester.html" style="color:blue;">Regiester here</a></p>
+  </div>
+
+  <footer> WE School</footer>
+</body>
+</html>
+
